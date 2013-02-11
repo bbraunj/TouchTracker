@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "TouchViewController.h"
+#import "TouchDrawView.h"
 
 @implementation AppDelegate
 
@@ -14,6 +16,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    TouchViewController *tvc = [[TouchViewController alloc] init];
+    [[self window] setRootViewController: tvc];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -29,6 +35,10 @@
 {
     // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
     // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+    TouchDrawView *tdv = [[[self window] rootViewController] view];
+    
+    if ([tdv saveChanges] == YES)
+        NSLog(@"Saved Lines");
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application

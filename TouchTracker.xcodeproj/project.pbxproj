@@ -16,6 +16,9 @@
 		7C04AD2016C80050004FD37A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C04AD1F16C80050004FD37A /* Default.png */; };
 		7C04AD2216C80050004FD37A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C04AD2116C80050004FD37A /* Default@2x.png */; };
 		7C04AD2416C80050004FD37A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C04AD2316C80050004FD37A /* Default-568h@2x.png */; };
+		7C04AD2C16C8006F004FD37A /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C04AD2B16C8006F004FD37A /* Line.m */; };
+		7C04AD2F16C800B5004FD37A /* TouchDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C04AD2E16C800B5004FD37A /* TouchDrawView.m */; };
+		7C04AD3216C80115004FD37A /* TouchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C04AD3116C80115004FD37A /* TouchViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		7C04AD1F16C80050004FD37A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		7C04AD2116C80050004FD37A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7C04AD2316C80050004FD37A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C04AD2A16C8006F004FD37A /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		7C04AD2B16C8006F004FD37A /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		7C04AD2D16C800B5004FD37A /* TouchDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchDrawView.h; sourceTree = "<group>"; };
+		7C04AD2E16C800B5004FD37A /* TouchDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchDrawView.m; sourceTree = "<group>"; };
+		7C04AD3016C80115004FD37A /* TouchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchViewController.h; sourceTree = "<group>"; };
+		7C04AD3116C80115004FD37A /* TouchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TouchViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +89,12 @@
 			children = (
 				7C04AD1C16C80050004FD37A /* AppDelegate.h */,
 				7C04AD1D16C80050004FD37A /* AppDelegate.m */,
+				7C04AD3016C80115004FD37A /* TouchViewController.h */,
+				7C04AD3116C80115004FD37A /* TouchViewController.m */,
+				7C04AD2D16C800B5004FD37A /* TouchDrawView.h */,
+				7C04AD2E16C800B5004FD37A /* TouchDrawView.m */,
+				7C04AD2A16C8006F004FD37A /* Line.h */,
+				7C04AD2B16C8006F004FD37A /* Line.m */,
 				7C04AD1416C80050004FD37A /* Supporting Files */,
 			);
 			path = TouchTracker;
@@ -166,6 +181,9 @@
 			files = (
 				7C04AD1A16C80050004FD37A /* main.m in Sources */,
 				7C04AD1E16C80050004FD37A /* AppDelegate.m in Sources */,
+				7C04AD2C16C8006F004FD37A /* Line.m in Sources */,
+				7C04AD2F16C800B5004FD37A /* TouchDrawView.m in Sources */,
+				7C04AD3216C80115004FD37A /* TouchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
